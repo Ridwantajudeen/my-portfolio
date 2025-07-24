@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+body {
+  background-color: black; 
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
