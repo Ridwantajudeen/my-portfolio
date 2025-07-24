@@ -6,7 +6,7 @@ const projects = [
     description: "A freelance marketplace platform built for clients and freelancers. It allows users to post jobs, place bids, manage profiles, and securely collaborate on projects.",
     tech: [ "React", "Tailwind CSS", "Firebase"],
     github: "https://github.com/Ridwantajudeen/bidly",
-    demo: "https://bidly-nine.vercel.app/",
+    demo: "https://bidly-five.vercel.app/",
     image: "/bidly.png", 
   },
   {
