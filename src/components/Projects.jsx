@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Bidly",
+    description: "A freelance marketplace platform built for clients and freelancers. It allows users to post jobs, place bids, manage profiles, and securely collaborate on projects.",
+    tech: [ "React", "Tailwind CSS", "Firebase"],
+    github: "https://github.com/Ridwantajudeen/bidly",
+    demo: "https://bidly-nine.vercel.app/",
+    image: "/bidly.png", 
+  },
+  {
     title: "Escrowd",
     description: "A decentralized freelance escrow platform that ensures trust between clients and freelancers using smart contracts.",
     tech: ["Solidity", "React", "Tailwind CSS"],
