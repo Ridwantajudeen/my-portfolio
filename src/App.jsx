@@ -10,8 +10,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <Helmet>
-        
+       <Helmet>
         <title>Ridwan Tajudeen | Web Developer & WordPress Expert</title>
         <meta
           name="description"
@@ -23,7 +22,7 @@ function App() {
         />
         <meta name="robots" content="index, follow" />
 
-        
+        {/* Open Graph / Facebook */}
         <meta property="og:url" content="https://ridwantajudeen.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Ridwan Tajudeen | Web Developer & WordPress Expert" />
@@ -33,10 +32,10 @@ function App() {
         />
         <meta
           property="og:image"
-          content="https://opengraph.b-cdn.net/production/images/e098907e-60d1-4715-bb76-5b592091ddfc.png?token=HDzKPdOQRjhz462yuLQK2ydmCu3Zw4wfvm2cDBad5us&height=611&width=1200&expires=33289320383"
+          content="https://opengraph.b-cdn.net/production/images/e098907e-60d1-4715-bb76-5b592091ddfc.png"
         />
 
-        
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ridwantajudeen.vercel.app" />
         <meta property="twitter:url" content="https://ridwantajudeen.vercel.app/" />
@@ -47,7 +46,7 @@ function App() {
         />
         <meta
           name="twitter:image"
-          content="https://opengraph.b-cdn.net/production/images/e098907e-60d1-4715-bb76-5b592091ddfc.png?token=HDzKPdOQRjhz462yuLQK2ydmCu3Zw4wfvm2cDBad5us&height=611&width=1200&expires=33289320383"
+          content="https://opengraph.b-cdn.net/production/images/e098907e-60d1-4715-bb76-5b592091ddfc.png"
         />
       </Helmet>
 
