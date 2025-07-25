@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -10,45 +10,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-       <Helmet>
-        <title>Ridwan Tajudeen | Web Developer & WordPress Expert</title>
-        <meta
-          name="description"
-          content="Ridwan Tajudeen is a Web Developer and WordPress expert who builds fast, responsive websites and powerful Web3 blockchain applications."
-        />
-        <meta
-          name="keywords"
-          content="Ridwan Tajudeen, web developer, WordPress developer, React, Web3 developer, blockchain, Nigeria, portfolio"
-        />
-        <meta name="robots" content="index, follow" />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:url" content="https://ridwantajudeen.vercel.app/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Ridwan Tajudeen | Web Developer & WordPress Expert" />
-        <meta
-          property="og:description"
-          content="I help clients build fast websites, custom WordPress solutions, and Web3 blockchain apps."
-        />
-        <meta
-          property="og:image"
-          content="https://opengraph.b-cdn.net/production/images/e098907e-60d1-4715-bb76-5b592091ddfc.png"
-        />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="ridwantajudeen.vercel.app" />
-        <meta property="twitter:url" content="https://ridwantajudeen.vercel.app/" />
-        <meta name="twitter:title" content="Ridwan Tajudeen | Web Developer & WordPress Expert" />
-        <meta
-          name="twitter:description"
-          content="I help clients build fast websites, custom WordPress solutions, and Web3 blockchain apps."
-        />
-        <meta
-          name="twitter:image"
-          content="https://opengraph.b-cdn.net/production/images/e098907e-60d1-4715-bb76-5b592091ddfc.png"
-        />
-      </Helmet>
+       
 
       <Router>
         <Navbar />
