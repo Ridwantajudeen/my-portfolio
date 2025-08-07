@@ -18,6 +18,15 @@ const projects = [
     image: "/escrowdpage.png", 
   },
   {
+  title: "SneakUp",
+  description: "A premium Nike-inspired e-commerce platform for sneaker lovers. It features high-resolution product displays, smooth scroll animations, a sleek cart experience, and secure Stripe checkout. Designed to mimic luxury brand aesthetics.",
+  tech: ["React", "Tailwind CSS", "Framer Motion", "Context API", "PayStack"],
+  github: "https://github.com/Ridwantajudeen/sneakup",
+  demo: "https://sneakup.vercel.app/",
+  image: "/sneakup.png",
+},
+
+  {
   title: "Little Bee Box",
   description: "A professional WordPress website for a gift subscription service. It allows users to explore and subscribe to curated gift boxes, showcasing beautiful product imagery and a seamless user journey.",
   tech: ["WordPress", "Elementor", "WooCommerce"],
