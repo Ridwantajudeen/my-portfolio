@@ -19,7 +19,7 @@ const projects = [
   },
   {
   title: "SneakUp",
-  description: "A premium Nike-inspired e-commerce platform for sneaker lovers. It features high-resolution product displays, smooth scroll animations, a sleek cart experience, and secure Stripe checkout. Designed to mimic luxury brand aesthetics.",
+  description: "A premium Nike-inspired e-commerce platform for sneaker lovers. It features high-resolution product displays, smooth scroll animations, a sleek cart experience, and secure PayStack checkout. Designed to mimic luxury brand aesthetics.",
   tech: ["React", "Tailwind CSS", "Framer Motion", "Context API", "PayStack"],
   github: "https://github.com/Ridwantajudeen/sneakup",
   demo: "https://sneakup.vercel.app/",
