@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Community Listing",
+    description: "Browse and share apartment and house listings. Connect directly with landlords. No agents or middlemen.",
+    tech: [ "React", "Tailwind CSS", "Supabase"],
+    github: "https://github.com/Ridwantajudeen/community-listing",
+    demo: "https://www.communitylisting.com.ng/",
+    image: "/community.png", 
+  },
+  {
     title: "Bidly",
     description: "A freelance marketplace platform built for clients and freelancers. It allows users to post jobs, place bids, manage profiles, and securely collaborate on projects.",
     tech: [ "React", "Tailwind CSS", "Firebase"],
