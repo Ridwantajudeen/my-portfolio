@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Doabli",
+    description: "Doabli is a marketplace that connects clients with trusted people for errands, home services, tech and digital work, creative gigs, and more. Post a job, hire a runner, and get tasks done with secure payments.",
+    tech: [ "React", "Express (Node.js)", "Tailwind CSS", "Supabase"],
+    github: "https://doabli.com/",
+    demo: "https://doabli.com/",
+    image: "/doabli-homepage.png", 
+  },
+  {
     title: "Community Listing",
     description: "Browse and share apartment and house listings. Connect directly with landlords. No agents or middlemen.",
     tech: [ "React", "Tailwind CSS", "Supabase"],
