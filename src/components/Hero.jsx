@@ -23,12 +23,12 @@ const Hero = () => {
         >
           <Typewriter
             words={[
-               'Web developer',
-            'Web3 Developer.',
-            'React Frontend Developer.',
-            'Smart Contract Engineer.',
-            
-            'I turn ideas into products.',
+              'Software Developer.',
+              'I build polished applications.',
+              'I build modern websites.',
+              'WordPress Developer.',
+              'Smart Contract Engineer.',
+              'I turn ideas into products.',
             ]}
             loop={true}
             cursor
@@ -45,7 +45,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          I bring ideas to life. Whether it’s a sleek Website with React app, a custom WordPress site, or a Web3 smart contract.  
+          I bring ideas to life. Whether it's a sleek website, a mobile app, a custom WordPress site, or a smart contract.
         </motion.p>
 
         <motion.div

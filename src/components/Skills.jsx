@@ -3,7 +3,6 @@ import {
   SiSolidity,
   SiChainlink,
   SiEthers,
-  SiReact,
   SiTailwindcss,
   SiNextdotjs,
   SiFirebase,
@@ -11,19 +10,65 @@ import {
   SiGithub,
   SiJavascript,
   SiWordpress,
+  SiExpo,
+  SiNodedotjs,
+  SiExpress,
+  SiSupabase,
+  SiTypescript,
 } from "react-icons/si";
-import { FaWrench } from "react-icons/fa";
+import {
+  FaWrench,
+  FaReact,
+  FaMobileAlt,
+  FaCode,
+  FaAppStore,
+  FaGooglePlay,
+  FaLock,
+  FaCreditCard,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const skills = [
-
-    {
-    category: "Frontend",
+  {
+    category: "Mobile Product Skills",
+    items: [
+      { name: "React Native", icon: <FaMobileAlt size={30} /> },
+      { name: "Expo", icon: <SiExpo size={30} /> },
+      { name: "Cross-platform Development", icon: <FaCode size={30} /> },
+      { name: "App Store Deployment", icon: <FaAppStore size={30} /> },
+      { name: "Google Play Console", icon: <FaGooglePlay size={30} /> },
+      { name: "Authentication Systems", icon: <FaLock size={30} /> },
+      { name: "Subscription Billing Integration", icon: <FaCreditCard size={30} /> },
+    ],
+  },
+  {
+    category: "Web Development",
     items: [
       { name: "JavaScript", icon: <SiJavascript size={30} /> },
-      { name: "React", icon: <SiReact size={30} /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss size={30} /> },
+      { name: "TypeScript", icon: <SiTypescript size={30} /> },
+      { name: "React", icon: <FaReact size={30} /> },
       { name: "Next.js", icon: <SiNextdotjs size={30} /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss size={30} /> },
+    ],
+  },
+  {
+    category: "WordPress",
+    items: [
+      { name: "WordPress", icon: <SiWordpress size={30} /> },
+      { name: "Custom Themes", icon: <FaCode size={30} /> },
+      { name: "Elementor", icon: <FaCode size={30} /> },
+      { name: "WooCommerce", icon: <FaCode size={30} /> },
+    ],
+  },
+  {
+    category: "Backend & Tools",
+    items: [
+      { name: "Node.js", icon: <SiNodedotjs size={30} /> },
+      { name: "Express", icon: <SiExpress size={30} /> },
+      { name: "Supabase", icon: <SiSupabase size={30} /> },
+      { name: "Firebase", icon: <SiFirebase size={30} /> },
+      { name: "Git", icon: <SiGithub size={30} /> },
+      { name: "Vercel", icon: <SiVercel size={30} /> },
     ],
   },
   {
@@ -36,17 +81,6 @@ const skills = [
     ],
   },
 
-  
-  {
-    category: "Tools",
-    items: [
-        { name: "WordPress", icon: <SiWordpress size={30} /> },
-      { name: "Git", icon: <SiGithub size={30} /> },
-      { name: "Firebase", icon: <SiFirebase size={30} /> },
-      { name: "Vercel", icon: <SiVercel size={30} /> },
-      
-    ],
-  },
 ];
 
 const Skills = () => {

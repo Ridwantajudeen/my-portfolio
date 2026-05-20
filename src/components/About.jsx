@@ -14,15 +14,15 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-6 text-purple-500">About Me</h2>
 
         <p className="text-lg text-gray-300 leading-relaxed">
-          I'm Ridwan Tajudeen. a <span className="text-purple-400">Frontend Web Developer</span> and 
-          <span className="text-purple-400"> Web3 Builder</span> passionate about solving real-world problems with code.
-          I bring ideas to life on the web. whether it’s a custom smart contract, a sleek React frontend, or a powerful WordPress website.
+          I'm Ridwan Tajudeen, a <span className="text-purple-400">Software Developer</span> passionate about solving real-world problems with code.
+          I build polished applications, modern websites, WordPress experiences, and smart contracts that are practical and useful.
         </p>
 
         <p className="text-lg text-gray-400 mt-4 leading-relaxed">
-          On the web development side, I specialize in crafting clean, fast, and responsive websites using 
-          <span className="text-purple-400"> React</span>, <span className="text-purple-400">Tailwind CSS</span>, and 
-          <span className="text-purple-400"> WordPress</span>. I’ve built everything from business sites to custom blog pages.
+          On the web and app side, I specialize in crafting clean, fast, and responsive experiences using
+          <span className="text-purple-400"> React</span>, <span className="text-purple-400">React Native</span>,
+          <span className="text-purple-400"> Tailwind CSS</span>, and
+          <span className="text-purple-400"> WordPress</span>. I've built everything from business sites to mobile products.
         </p>
 
         <p className="text-lg text-gray-400 mt-4 leading-relaxed">
@@ -30,19 +30,17 @@ const About = () => {
           blockchain interactions, and integrate DApps that people can actually use.
         </p>
 
-        
-
         <p className="text-lg text-gray-400 mt-4 leading-relaxed">
           Outside of code, I enjoy reading thrillers and creating moments that matter.
-        </p><br />
+        </p>
+        <br />
         <Link
-                  to="/"
-                  className="inline-block px-6 py-3 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-black transition duration-300"
-                >
-                 Go Back
-                </Link>
+          to="/"
+          className="inline-block px-6 py-3 border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-black transition duration-300"
+        >
+          Go Back
+        </Link>
       </motion.div>
-      
     </section>
   );
 };

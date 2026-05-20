@@ -1,13 +1,78 @@
+import React from "react";
 import {
-  FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaWordpress,
-  FaFire, FaGitAlt
+  FaCode,
+  FaGitAlt,
+  FaMobileAlt,
+  FaReact,
+  FaWordpress,
+  FaFire,
+  FaAppStore,
+  FaGooglePlay,
+  FaLock,
+  FaCreditCard,
 } from "react-icons/fa";
 import {
-  SiSolidity, SiTailwindcss, SiNextdotjs, SiTypescript,
-  SiGit, SiFirebase, SiVercel, SiChainlink, SiHardhat, SiEthers
+  SiSolidity,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+  SiGit,
+  SiFirebase,
+  SiVercel,
+  SiChainlink,
+  SiHardhat,
+  SiEthers,
+  SiJavascript,
+  SiExpo,
+  SiNodedotjs,
+  SiExpress,
+  SiSupabase,
+  SiWordpress,
 } from "react-icons/si";
 
 const groupedSkills = [
+  {
+    category: "Mobile Product Skills",
+    skills: [
+      { name: "React Native", icon: <FaMobileAlt className="text-white text-3xl" /> },
+      { name: "Expo", icon: <SiExpo className="text-white text-3xl" /> },
+      { name: "Cross-platform Development", icon: <FaCode className="text-white text-3xl" /> },
+      { name: "App Store Deployment", icon: <FaAppStore className="text-white text-3xl" /> },
+      { name: "Google Play Console", icon: <FaGooglePlay className="text-white text-3xl" /> },
+      { name: "Authentication Systems", icon: <FaLock className="text-white text-3xl" /> },
+      { name: "Subscription Billing Integration", icon: <FaCreditCard className="text-white text-3xl" /> },
+    ],
+  },
+  {
+    category: "Web Development",
+    skills: [
+      { name: "JavaScript", icon: <SiJavascript className="text-yellow-400 text-3xl" /> },
+      { name: "TypeScript", icon: <SiTypescript className="text-blue-500 text-3xl" /> },
+      { name: "React", icon: <FaReact className="text-cyan-400 text-3xl" /> },
+      { name: "Next.js", icon: <SiNextdotjs className="text-white text-3xl" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400 text-3xl" /> },
+    ],
+  },
+  {
+    category: "WordPress",
+    skills: [
+      { name: "WordPress", icon: <SiWordpress className="text-blue-500 text-3xl" /> },
+      { name: "Custom Themes", icon: <FaCode className="text-white text-3xl" /> },
+      { name: "Elementor", icon: <FaCode className="text-white text-3xl" /> },
+      { name: "WooCommerce", icon: <FaCode className="text-white text-3xl" /> },
+    ],
+  },
+  {
+    category: "Backend & Tools",
+    skills: [
+      { name: "Node.js", icon: <SiNodedotjs className="text-green-400 text-3xl" /> },
+      { name: "Express", icon: <SiExpress className="text-white text-3xl" /> },
+      { name: "Supabase", icon: <SiSupabase className="text-green-300 text-3xl" /> },
+      { name: "Firebase", icon: <SiFirebase className="text-yellow-500 text-3xl" /> },
+      { name: "Git", icon: <FaGitAlt className="text-orange-500 text-3xl" /> },
+      { name: "Vercel", icon: <SiVercel className="text-white text-3xl" /> },
+    ],
+  },
   {
     category: "Web3",
     skills: [
@@ -15,36 +80,6 @@ const groupedSkills = [
       { name: "Hardhat", icon: <SiHardhat className="text-yellow-400 text-3xl" /> },
       { name: "Chainlink", icon: <SiChainlink className="text-blue-400 text-3xl" /> },
       { name: "Ethers.js", icon: <SiEthers className="text-purple-400 text-3xl" /> },
-    ],
-  },
-  {
-    category: "Frontend",
-    skills: [
-      { name: "React", icon: <FaReact className="text-cyan-400 text-3xl" /> },
-      { name: "Next.js", icon: <SiNextdotjs className="text-white text-3xl" /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400 text-3xl" /> },
-      { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400 text-3xl" /> },
-      { name: "TypeScript", icon: <SiTypescript className="text-blue-500 text-3xl" /> },
-      { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-3xl" /> },
-      { name: "CSS", icon: <FaCss3Alt className="text-blue-400 text-3xl" /> },
-      { name: "WordPress", icon: <FaWordpress className="text-blue-500 text-3xl" /> },
-    ],
-  },
-  {
-    category: "Tools",
-    skills: [
-      { name: "Git", icon: <SiGit className="text-orange-500 text-3xl" /> },
-      { name: "Firebase", icon: <SiFirebase className="text-yellow-500 text-3xl" /> },
-      { name: "Vercel", icon: <SiVercel className="text-white text-3xl" /> },
-    ],
-  },
-  {
-    category: "Soft Skills",
-    skills: [
-      { name: "Communication", icon: <FaFire className="text-red-400 text-3xl" /> },
-      { name: "Problem Solving", icon: <FaFire className="text-purple-400 text-3xl" /> },
-      { name: "Teamwork", icon: <FaFire className="text-pink-400 text-3xl" /> },
-      { name: "Adaptability", icon: <FaFire className="text-green-400 text-3xl" /> },
     ],
   },
 ];
