@@ -172,14 +172,20 @@ function ProjectPreview({ project }) {
 
   if (project.image) {
     return (
-      <div className={isMobileApp ? "bg-[#0f0f0f] p-6 flex justify-center" : ""}>
+      <div
+        className={
+          isMobileApp
+            ? "bg-[#0f0f0f] p-4 sm:p-6 flex justify-center"
+            : "bg-[#0f0f0f] p-3 sm:p-6"
+        }
+      >
         <img
           src={project.image}
           alt={project.title}
           className={
             isMobileApp
-              ? "w-full max-w-[320px] aspect-[9/16] object-cover rounded-[2rem] border border-white/10 shadow-2xl"
-              : "w-full h-64 object-cover"
+              ? "w-full max-w-[320px] aspect-[9/16] object-contain rounded-[2rem] border border-white/10 shadow-2xl"
+              : "w-full h-[220px] sm:h-[260px] md:h-64 object-contain sm:object-cover object-center rounded-2xl border border-white/10 shadow-2xl"
           }
         />
       </div>
