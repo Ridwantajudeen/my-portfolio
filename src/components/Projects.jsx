@@ -36,7 +36,7 @@ const projectGroups = [
     title: "Websites",
     projects: [
       {
-        type: "Website",
+        type: "Service Marketplace",
         title: "Doabli",
         description:
           "Doabli is a marketplace that connects clients with trusted people for errands, home services, tech and digital work, creative gigs, and more. Post a job, hire a runner, and get tasks done with secure payments.",
@@ -46,7 +46,29 @@ const projectGroups = [
         image: "/doabli-homepage.png",
       },
       {
-        type: "Website",
+        type: "Delivery Service",
+        title: "Guorrow",
+        description:
+          "A student-centered delivery service built for universities, helping students get essentials delivered quickly and reliably across campus.",
+        role: "Cofounder",
+        tech: ["Delivery Platform", "Campus Logistics", "Student Services"],
+        github: null,
+        demo: "https://guorrow.com.ng",
+        image: "/guorrow.png",
+      },
+      {
+        type: "Online Pharmacy Store",
+        title: "MediScripts Pharmacy",
+        description:
+          "An online storefront for a physical pharmacy, giving customers an easier way to explore pharmacy services and connect with the store online.",
+        role: "Developer",
+        tech: ["E-commerce", "Healthcare", "Online Ordering"],
+        github: null,
+        demo: "https://www.mediscriptspharmacy.com/",
+        image: "/mediscripts.png",
+      },
+      {
+        type: "Property Listings",
         title: "Community Listing",
         description:
           "Browse and share apartment and house listings. Connect directly with landlords. No agents or middlemen.",
@@ -56,7 +78,7 @@ const projectGroups = [
         image: "/community.png",
       },
       {
-        type: "Website",
+        type: "Freelance Marketplace",
         title: "Bidly",
         description:
           "A freelance marketplace platform built for clients and freelancers. It allows users to post jobs, place bids, manage profiles, and securely collaborate on projects.",
@@ -66,7 +88,7 @@ const projectGroups = [
         image: "/bidly.png",
       },
       {
-        type: "Website",
+        type: "Escrow Platform",
         title: "Escrowd",
         description:
           "A decentralized freelance escrow platform that ensures trust between clients and freelancers using smart contracts.",
@@ -76,7 +98,7 @@ const projectGroups = [
         image: "/escrowdpage.png",
       },
       {
-        type: "Website",
+        type: "E-commerce Store",
         title: "SneakUp",
         description:
           "A premium Nike-inspired e-commerce platform for sneaker lovers. It features high-resolution product displays, smooth scroll animations, a sleek cart experience, and secure PayStack checkout.",
@@ -86,7 +108,7 @@ const projectGroups = [
         image: "/sneakup.png",
       },
       {
-        type: "Website",
+        type: "Subscription Website",
         title: "Little Bee Box",
         description:
           "A professional WordPress website for a gift subscription service. It allows users to explore and subscribe to curated gift boxes, showcasing beautiful product imagery and a seamless user journey.",
@@ -95,7 +117,7 @@ const projectGroups = [
         image: "/beebox.png",
       },
       {
-        type: "Website",
+        type: "Education Job Platform",
         title: "Onions",
         description:
           "A job-matching platform built for the education sector. Onions helps teachers find new opportunities, assists schools in resolving staffing shortages, and connects parents with qualified educators to improve learning outcomes.",
@@ -105,7 +127,7 @@ const projectGroups = [
         image: "/onions.png",
       },
       {
-        type: "Website",
+        type: "Florist Website",
         title: "Flowers in Wunderland",
         description:
           "A luxury wedding and event florist site powered by WordPress, featuring elegant galleries, brand storytelling, and a seamless booking experience for premium clientele.",
@@ -213,7 +235,7 @@ function ProjectCard({ project }) {
         ) : null}
 
         <div className="flex flex-wrap gap-2 mb-4">
-          {project.tech.map((tech, i) => (
+          {project.tech?.map((tech, i) => (
             <span
               key={i}
               className="text-sm bg-purple-900 text-purple-300 px-3 py-1 rounded-full"
